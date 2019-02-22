@@ -1,7 +1,7 @@
 # Personal Website
 
-armaans.ml
+[armaans.ml](🐔🐔🐔.ml)
 
-armaansethi.ml
+[armaansethi.ml](🐔🐔🐔.ml)
 
-🐔🐔🐔.ml
+[🐔🐔🐔.ml](🐔🐔🐔.ml)
