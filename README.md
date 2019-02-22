@@ -1,7 +1,7 @@
 # Personal Website
 
-[armaans.ml](🐔🐔🐔.ml)
+[armaans.ml](https://armaans.ml/)
 
-[armaansethi.ml](🐔🐔🐔.ml)
+[armaansethi.ml](http://armaans.ml/)
 
-[🐔🐔🐔.ml](🐔🐔🐔.ml)
+[🐔🐔🐔.ml](http://🐔🐔🐔.ml/)
