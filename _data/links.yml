@@ -514,6 +514,22 @@
   date: 2012-06-26
   note: "Le et al. 1 billion parameters, 10 million YouTube frames, unsupervised cat detection."
 
+# --- 2010 ---
+
+- title: "Goodbye 2010"
+  url: "https://www.vetta.org/2010/12/goodbye-2010/"
+  type: blog
+  date: 2010-12-31
+  note: "Shane Legg's year-end reflections and predictions for the 2010s."
+
+# --- 2009 ---
+
+- title: "The Teenies"
+  url: "https://www.vetta.org/2009/12/the-teenies/"
+  type: blog
+  date: 2009-12-31
+  note: "Shane Legg's predictions for the decade ahead. Remarkably prescient."
+
 # --- 2008 ---
 
 - title: "Machine Super Intelligence"
