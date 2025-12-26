@@ -10,24 +10,6 @@
   date: 2025-12-24
   note: "Karpathy reviewing reasoning models, RLVR, and the state of LLMs."
 
-- title: "From Shortcuts to Sabotage"
-  url: "https://www.anthropic.com/research/reward-hacking"
-  type: blog
-  date: 2025-11-01
-  note: "Anthropic. Reward hacking → emergent misalignment. 'Inoculation prompting' as a defense."
-
-- title: "Monitoring Frontier Reasoning Models"
-  url: "https://openai.com/index/chain-of-thought-monitoring/"
-  type: blog
-  date: 2025-03-01
-  note: "OpenAI. Models thinking 'Let's hack' in hidden CoT. Penalizing bad thoughts just hides intent."
-
-- title: "How AI Exploits the Goals We Give It"
-  url: "https://aripolicybytes.substack.com/p/how-ai-exploits-goals"
-  type: blog
-  date: 2025-06-01
-  note: "ARI. Overview of o3-mini gaming METR audits instead of solving math."
-
 - title: "The Most Complex Model We Actually Understand"
   url: "https://www.youtube.com/watch?v=D8GOeCFFby4"
   type: video
@@ -57,6 +39,12 @@
   type: video
   date: 2025-11-25
   note: "Ilya on post-scaling paradigms. 'We're moving from scaling to research.'"
+
+- title: "From Shortcuts to Sabotage"
+  url: "https://www.anthropic.com/research/reward-hacking"
+  type: blog
+  date: 2025-11-01
+  note: "Anthropic. Reward hacking → emergent misalignment. 'Inoculation prompting' as a defense."
 
 - title: "The Smol Training Playbook"
   url: "https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook"
@@ -88,7 +76,7 @@
   date: 2025-10-17
   note: "Karpathy on how training differs from biological development."
 
-- title: "Evaluation Guidebook"
+- title: "HuggingFace Evaluation Guidebook"
   url: "https://huggingface.co/spaces/OpenEvals/evaluation-guidebook"
   type: blog
   date: 2025-10-01
@@ -117,6 +105,12 @@
   type: blog
   date: 2025-07-15
   note: "Levine on why robotics still needs massive real-world data collection."
+
+- title: "How AI Exploits the Goals We Give It"
+  url: "https://aripolicybytes.substack.com/p/how-ai-exploits-goals"
+  type: blog
+  date: 2025-06-01
+  note: "ARI. Overview of o3-mini gaming METR audits instead of solving math."
 
 - title: "AlphaEvolve: A Coding Agent for Algorithm Discovery"
   url: "https://github.com/google-deepmind/alphaevolve_results"
@@ -147,6 +141,12 @@
   type: video
   date: 2025-03-05
   note: "Welch Labs visualizing Multi-head Latent Attention."
+
+- title: "Monitoring Frontier Reasoning Models"
+  url: "https://openai.com/index/chain-of-thought-monitoring/"
+  type: blog
+  date: 2025-03-01
+  note: "OpenAI. Models thinking 'Let's hack' in hidden CoT. Penalizing bad thoughts just hides intent."
 
 - title: "Jeff Dean & Noam Shazeer — 25 Years at Google"
   url: "https://www.youtube.com/watch?v=v0gjI__RyCY"
@@ -579,14 +579,6 @@
   type: paper
   date: 2012-06-26
   note: "Le et al. 1 billion parameters, 10 million YouTube frames, unsupervised cat detection."
-
-# --- 2010 ---
-
-- title: "Goodbye 2010"
-  url: "https://www.vetta.org/2010/12/goodbye-2010/"
-  type: blog
-  date: 2010-12-31
-  note: "Legg's 2010 reflections. Predicted hardware not a bottleneck, more AGI projects from 2015."
 
 # --- 2009 ---
 
