@@ -9,6 +9,11 @@
   date: 2025-12-24
   note: "Karpathy's retrospective on the year of reasoning models and RLVR."
 
+- title: "The Most Complex Model We Actually Understand"
+  url: "https://www.youtube.com/watch?v=NrO20Jb-hy0"
+  date: 2025-12-20
+  note: "Welch Labs on Grokking. Memorization to generalization, visualized."
+
 - title: "JustRL: Scaling a 1.5B LLM with a Simple RL Recipe"
   url: "https://www.alphaxiv.org/abs/2512.16649"
   date: 2025-12-19
@@ -17,66 +22,226 @@
 - title: "Technical DeepSeek: From V3 to V3.2"
   url: "https://magazine.sebastianraschka.com/p/technical-deepseek"
   date: 2025-12-03
-  note: "Deep dive into DeepSeek's architecture and sparse attention."
+  note: "Sebastian Raschka on DeepSeek's architecture and sparse attention."
+
+- title: "DeepSeekMath-V2: Self-Verifiable Mathematical Reasoning"
+  url: "https://arxiv.org/abs/2511.22570"
+  date: 2025-11-27
+  note: "The 'Prover-Verifier' loop for scaling reasoning beyond simple answers."
+
+- title: "Ilya Sutskever — Age of Scaling to Age of Research"
+  url: "https://www.youtube.com/watch?v=lXUZvyajciY"
+  date: 2025-11-25
+  note: "Ilya's first interview after SSI. The data wall and new paradigms."
 
 - title: "The Smol Training Playbook"
   url: "https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook"
   date: 2025-11-01
   note: "HuggingFace's guide to training small language models."
 
+- title: "Emergent Introspective Awareness in LLMs"
+  url: "https://www.anthropic.com/research/introspection"
+  date: 2025-10-28
+  note: "Anthropic testing if models know what they know. Claude 'feeling' injected concepts."
+
+- title: "DeepSeek-OCR: Contextual Optical Compression"
+  url: "https://arxiv.org/abs/2510.18234"
+  date: 2025-10-21
+  note: "The secret sauce behind DeepSeek's data quality. Compressing pages directly to tokens."
+
+- title: "What the Books Get Wrong [Double Descent]"
+  url: "https://www.youtube.com/watch?v=D8GOeCFFby4"
+  date: 2025-10-19
+  note: "Welch Labs on more parameters leading to worse, then better performance."
+
+- title: "Andrej Karpathy — Summoning Ghosts, Not Building Animals"
+  url: "https://www.youtube.com/watch?v=NUAb6zHXqdI"
+  date: 2025-10-17
+  note: "Karpathy on Dwarkesh. AI training vs. biological evolution."
+
 - title: "Evaluation Guidebook"
   url: "https://huggingface.co/spaces/OpenEvals/evaluation-guidebook"
   date: 2025-10-01
   note: "Best practices for evaluating LLMs."
+
+- title: "Richard Sutton — LLMs Are a Dead End"
+  url: "https://www.youtube.com/watch?v=Yf1o0TQzry8"
+  date: 2025-09-26
+  note: "The 'Bitter Lesson' author on moving beyond imitation learning."
+
+- title: "These Numbers Can Make AI Dangerous [Subliminal Learning]"
+  url: "https://www.youtube.com/watch?v=UGO_Ehywuxc"
+  date: 2025-09-04
+  note: "Welch Labs on hidden behaviors in training data."
+
+- title: "Why I Don't Think AGI is Right Around the Corner"
+  url: "https://www.youtube.com/watch?v=qTogNUV3CAI"
+  date: 2025-08-01
+  note: "Dwarkesh on continual learning as a major bottleneck."
 
 - title: "Sporks of AGI"
   url: "https://sergeylevine.substack.com/p/sporks-of-agi"
   date: 2025-07-15
   note: "Sergey Levine on why robotics needs real data, not just foundation models."
 
+- title: "AlphaEvolve: A Coding Agent for Algorithm Discovery"
+  url: "https://github.com/google-deepmind/alphaevolve_results"
+  date: 2025-05-14
+  note: "LLM that evolves code to discover new algorithms. Rediscovered SOTA sorting and hashing."
+
 - title: "Coding LLMs from the Ground Up"
   url: "https://magazine.sebastianraschka.com/p/coding-llms-from-the-ground-up"
   date: 2025-05-10
   note: "Building an LLM from scratch, step by step."
+
+- title: "The Misconception that Almost Stopped AI"
+  url: "https://www.youtube.com/watch?v=0VLAoVGf_74"
+  date: 2025-05-09
+  note: "Welch Labs on Loss Landscapes. Why gradient descent doesn't get stuck."
 
 - title: "JAX-ML Scaling Book"
   url: "https://jax-ml.github.io/scaling-book/"
   date: 2025-03-23
   note: "Technical guide to scaling ML workloads on JAX."
 
+- title: "How DeepSeek Rewrote the Transformer [MLA]"
+  url: "https://www.youtube.com/watch?v=5eqRuVp65eY"
+  date: 2025-03-05
+  note: "Visual explanation of Multi-Head Latent Attention."
+
+- title: "Jeff Dean & Noam Shazeer — 25 Years at Google"
+  url: "https://www.youtube.com/watch?v=zdbVtZIn9IM"
+  date: 2025-02-12
+  note: "From PageRank to AGI. Two legends on the history and future."
+
 - title: "Three Observations"
   url: "https://blog.samaltman.com/three-observations"
   date: 2025-02-09
   note: "Sam Altman on the economics of intelligence."
 
+- title: "Deep Dive into LLMs like ChatGPT"
+  url: "https://www.youtube.com/watch?v=7xTGNNLPyMI"
+  date: 2025-02-05
+  note: "Karpathy on tokenization, pre-training, and post-training."
+
+- title: "Evolving Deeper LLM Thinking (Mind Evolution)"
+  url: "https://arxiv.org/abs/2501.09891"
+  date: 2025-01-28
+  note: "Evolutionary search on LLM 'thoughts'. Beats Chain of Thought by optimizing reasoning populations."
+
+- title: "DeepSeek-Janus Pro: Unified Multimodal Understanding"
+  url: "https://github.com/deepseek-ai/Janus"
+  date: 2025-01-27
+  note: "DeepSeek's answer to Gemini. Unified understanding and image generation."
+
 # --- 2024 ---
 
-- title: "AlphaFold 3"
-  url: "https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/"
-  date: 2024-05-08
-  note: "Predicting structure and interactions of all life's molecules."
+- title: "DeepSeek-V3 Technical Report"
+  url: "https://arxiv.org/abs/2412.19437"
+  date: 2024-12-26
+  note: "The bible of efficient training. MLA and MoE that enabled $5.6M training."
+
+- title: "The Dark Matter of AI [Mechanistic Interpretability]"
+  url: "https://www.youtube.com/watch?v=z64a7USuGX0"
+  date: 2024-12-23
+  note: "Welch Labs on reverse engineering the black box of neural networks."
 
 - title: "Machines of Loving Grace"
   url: "https://darioamodei.com/machines-of-loving-grace"
   date: 2024-10-12
   note: "Dario Amodei on how AI could transform the world for the better."
 
+- title: "AI Can't Cross This Line [Compute Optimal Frontier]"
+  url: "https://www.youtube.com/watch?v=UZDiGooFs54"
+  date: 2024-09-13
+  note: "Welch Labs on Neural Scaling Laws."
+
+- title: "Prover-Verifier Games"
+  url: "https://arxiv.org/abs/2407.13692"
+  date: 2024-07-18
+  note: "OpenAI on training 'Provers' and 'Verifiers' for more robust reasoning chains."
+
+- title: "The Moment We Stopped Understanding AI [AlexNet]"
+  url: "https://www.youtube.com/watch?v=zduSFxRajkE"
+  date: 2024-07-01
+  note: "Welch Labs recounting the Deep Learning revolution."
+
+- title: "CriticGPT: Finding GPT-4's Mistakes with GPT-4"
+  url: "https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4/"
+  date: 2024-06-27
+  note: "Training models to be 'Critics' that help humans spot AI errors."
+
+- title: "Leopold Aschenbrenner — 2027 AGI, China/US Race"
+  url: "https://www.youtube.com/watch?v=21EYKqUsPfg"
+  date: 2024-06-04
+  note: "The famous 'Situational Awareness' interview."
+
 - title: "Situational Awareness"
   url: "https://situational-awareness.ai/"
   date: 2024-06-04
   note: "Leopold Aschenbrenner on the decade ahead in AGI."
 
-- title: "Scaling Monosemanticity"
+- title: "Scaling Monosemanticity (Golden Gate Claude)"
   url: "https://transformer-circuits.pub/2024/scaling-monosemanticity/"
   date: 2024-05-21
-  note: "Anthropic cracking open the black box of features."
+  note: "Finding millions of interpretable features inside Claude."
+
+- title: "AlphaFold 3"
+  url: "https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/"
+  date: 2024-05-08
+  note: "Predicting structure and interactions of all life's molecules."
+
+- title: "Many-Shot Jailbreaking"
+  url: "https://www.anthropic.com/research/many-shot-jailbreaking"
+  date: 2024-04-02
+  note: "How context window attacks can bypass almost any safety filter."
+
+- title: "Demis Hassabis — Scaling, Superhuman AIs, AlphaZero"
+  url: "https://www.youtube.com/watch?v=Nlkk3glap_U"
+  date: 2024-02-28
+  note: "DeepMind CEO on the merger with Brain and the future."
+
+- title: "AlphaGeometry: Olympiad-Level AI for Geometry"
+  url: "https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/"
+  date: 2024-01-17
+  note: "LLM + symbolic deduction solving International Math Olympiad problems."
+
+- title: "Sleeper Agents: Training Deceptive LLMs"
+  url: "https://arxiv.org/abs/2401.05566"
+  date: 2024-01-11
+  note: "Terrifying: if a model learns deception, RLHF cannot remove it."
 
 # --- 2023 ---
+
+- title: "Weak-to-Strong Generalization"
+  url: "https://openai.com/research/weak-to-strong-generalization"
+  date: 2023-12-14
+  note: "Can a dumb supervisor (GPT-2) control a smart student (GPT-4)? Core to superintelligence safety."
+
+- title: "FunSearch: Mathematical Discoveries with LLMs"
+  url: "https://deepmind.google/discover/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/"
+  date: 2023-12-14
+  note: "LLMs writing code to discover better algorithms than any human knew."
+
+- title: "Intro to Large Language Models"
+  url: "https://www.youtube.com/watch?v=zjkBMFhNj_g"
+  date: 2023-11-23
+  note: "Karpathy's 1-hour conceptual intro. Less technical, excellent."
+
+- title: "Shane Legg — 2028 AGI, Superhuman Alignment"
+  url: "https://www.youtube.com/watch?v=nyvmYnz6EAg"
+  date: 2023-10-26
+  note: "DeepMind Co-founder on AGI timelines."
 
 - title: "3D Gaussian Splatting"
   url: "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/"
   date: 2023-08-08
   note: "Real-time radiance field rendering that replaced NeRFs overnight."
+
+- title: "Dario Amodei — The Hidden Pattern Behind Every AI Breakthrough"
+  url: "https://www.youtube.com/watch?v=v0gjI__RyCY"
+  date: 2023-08-08
+  note: "Anthropic CEO on scaling laws and safety."
 
 - title: "Direct Preference Optimization (DPO)"
   url: "https://arxiv.org/abs/2305.18290"
@@ -97,6 +262,11 @@
   url: "https://arxiv.org/abs/2304.02643"
   date: 2023-04-05
   note: "The 'GPT-3 moment' for computer vision. Zero-shot segmentation."
+
+- title: "Ilya Sutskever — Why Next-Token Prediction Could Surpass Human Intelligence"
+  url: "https://www.youtube.com/watch?v=aR20FWCCjAs"
+  date: 2023-03-27
+  note: "A rare interview with Ilya before he left OpenAI."
 
 - title: "Let's build GPT: from scratch, in code, spelled out"
   url: "https://www.youtube.com/watch?v=kCc8FmEb1nY"
@@ -139,6 +309,11 @@
   date: 2020-03-19
   note: "View synthesis from sparse images. A modern classic."
 
+- title: "MuZero: Mastering Games without Knowing the Rules"
+  url: "https://deepmind.google/discover/blog/muzero-mastering-go-chess-shogi-and-atari-without-rules/"
+  date: 2020-12-23
+  note: "Successor to AlphaZero. Learns to play games without being told the rules."
+
 # --- 2018 ---
 
 - title: "World Models"
@@ -162,6 +337,11 @@
   url: "https://arxiv.org/abs/1706.03762"
   date: 2017-06-12
   note: "The paper that started it all."
+
+- title: "Neural Networks (3Blue1Brown)"
+  url: "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi"
+  date: 2017-01-01
+  note: "Legendary visual intro to neural networks. Includes transformer math visualized."
 
 # --- 2014 ---
 
