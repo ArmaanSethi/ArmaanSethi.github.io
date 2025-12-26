@@ -599,14 +599,13 @@
   url: "https://theneural.wordpress.com/2011/07/08/the-miracle-of-the-boltzmann-machine/"
   type: blog
   date: 2011-07-08
-  date: 2011-07-08
-  note: "Sutskever. The only model that uses dreams for computation. 'The learning rule says: make whatever patterns we observe during sleep less likely... The BM forgets its dreams.'"
+  note: "Sutskever. The only model that uses dreams for computation. The learning rule explicitly makes patterns observed during sleep less likely, mirroring how biological brains forget dreams."
 
 - title: "The Futility of Gigantic Training Sets"
   url: "https://theneural.wordpress.com/2011/07/06/the-futility-of-gigantic-training-sets/"
   type: blog
   date: 2011-07-06
-  note: "Sutskever. 'Deep neural networks... will see the proliferation.' Predicts that even MLPs will run out of steam, requiring 'more exotic and ambitious architectures' (Transformers?)."
+  note: "Sutskever arguing that 'simple models + big data' is insufficient. He correctly predicts that MLPs will eventually run out of steam and require 'more exotic and ambitious architectures' to reach human-level performance."
 
 # --- 2009 ---
 
