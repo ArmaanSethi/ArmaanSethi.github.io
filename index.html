@@ -44,6 +44,7 @@
           {% for link in year_group.items %}
           <li class="link-item">
             <span class="link-title">
+              {% if link.type %}<span class="link-type link-type--{{ link.type }}">{{ link.type }}</span>{% endif %}
               <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a>
               {% if link.favorite %}<span class="favorite-star" title="Favorite">★</span>{% endif %}
             </span>

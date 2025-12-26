@@ -9,7 +9,8 @@ Edit `_data/links.yml` to add new links:
 ```yaml
 - title: "Paper or Article Title"
   url: "https://..."
-  year: 2024
+  type: paper  # paper | video | blog
+  date: 2024-01-15
   note: "Brief thoughts on why it's interesting"
   favorite: true  # Optional - adds a star
 ```
