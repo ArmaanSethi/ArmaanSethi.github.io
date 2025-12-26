@@ -593,6 +593,20 @@
   date: 2012-06-26
   note: "Le et al. 1 billion parameters, 10 million YouTube frames, unsupervised cat detection."
 
+# --- 2011 ---
+
+- title: "The Miracle of the Boltzmann Machine"
+  url: "https://theneural.wordpress.com/2011/07/08/the-miracle-of-the-boltzmann-machine/"
+  type: blog
+  date: 2011-07-08
+  note: "Sutskever. On the theoretical beauty vs practical difficulty of energy-based models."
+
+- title: "The Futility of Gigantic Training Sets"
+  url: "https://theneural.wordpress.com/2011/07/06/the-futility-of-gigantic-training-sets/"
+  type: blog
+  date: 2011-07-06
+  note: "Sutskever. Arguing that data scale is useless without model scale. Early intuition for scaling laws."
+
 # --- 2009 ---
 
 - title: "The Teenies"
