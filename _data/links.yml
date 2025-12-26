@@ -51,6 +51,11 @@
 
 # --- 2024 ---
 
+- title: "AlphaFold 3"
+  url: "https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/"
+  date: 2024-05-08
+  note: "Predicting structure and interactions of all life's molecules."
+
 - title: "Machines of Loving Grace"
   url: "https://darioamodei.com/machines-of-loving-grace"
   date: 2024-10-12
@@ -68,10 +73,78 @@
 
 # --- 2023 ---
 
+- title: "3D Gaussian Splatting"
+  url: "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/"
+  date: 2023-08-08
+  note: "Real-time radiance field rendering that replaced NeRFs overnight."
+
+- title: "Direct Preference Optimization (DPO)"
+  url: "https://arxiv.org/abs/2305.18290"
+  date: 2023-05-29
+  note: "The paper that killed RLHF for many. Stable and offline."
+
+- title: "Voyager: An Open-Ended Embodied Agent"
+  url: "https://arxiv.org/abs/2305.16291"
+  date: 2023-05-25
+  note: "NVIDIA's LLM-powered agent that writes code to explore Minecraft."
+
+- title: "DINOv2"
+  url: "https://arxiv.org/abs/2304.07193"
+  date: 2023-04-14
+  note: "Self-supervised vision transformers matching supervised performance."
+
+- title: "Segment Anything (SAM)"
+  url: "https://arxiv.org/abs/2304.02643"
+  date: 2023-04-05
+  note: "The 'GPT-3 moment' for computer vision. Zero-shot segmentation."
+
 - title: "Let's build GPT: from scratch, in code, spelled out"
   url: "https://www.youtube.com/watch?v=kCc8FmEb1nY"
   date: 2023-01-17
   note: "Karpathy's masterpiece. Best intro to transformers."
+
+- title: "DreamerV3"
+  url: "https://arxiv.org/abs/2301.04104"
+  date: 2023-01-10
+  note: "First algorithm to master Minecraft from scratch using a world model."
+
+# --- 2022 ---
+
+- title: "Gato: A Generalist Agent"
+  url: "https://arxiv.org/abs/2205.06175"
+  date: 2022-05-12
+  note: "DeepMind's single network that plays Atari, captions images, and controls robots."
+
+# --- 2021 ---
+
+- title: "Latent Diffusion Models (Stable Diffusion)"
+  url: "https://arxiv.org/abs/2112.10752"
+  date: 2021-12-20
+  note: "Moving diffusion to latent space made generative AI accessible."
+
+- title: "Decision Transformer"
+  url: "https://arxiv.org/abs/2106.01345"
+  date: 2021-06-02
+  note: "Treating RL as a sequence modeling problem."
+
+# --- 2020 ---
+
+- title: "Vision Transformer (ViT)"
+  url: "https://arxiv.org/abs/2010.11929"
+  date: 2020-10-22
+  note: "Proving pure Transformers can beat CNNs at vision tasks."
+
+- title: "NeRF"
+  url: "https://www.matthewtancik.com/nerf"
+  date: 2020-03-19
+  note: "View synthesis from sparse images. A modern classic."
+
+# --- 2018 ---
+
+- title: "World Models"
+  url: "https://worldmodels.github.io/"
+  date: 2018-03-27
+  note: "Ha & Schmidhuber. Training agents inside hallucinated dreams."
 
 # --- 2017 ---
 
