@@ -81,22 +81,21 @@
       let activeFilters = new Set();
 
       function updateDisplay() {
-        const showAll = activeFilters.size === 0;
+        const currentTypes = new Set([...activeFilters].filter(f => f !== 'favorite'));
+        const filterFavorite = activeFilters.has('favorite');
+        const showAllTypes = currentTypes.size === 0;
 
         items.forEach(item => {
-          if (showAll) {
-            item.classList.remove('hidden');
-            return;
-          }
-
           const type = item.dataset.type;
           const isFavorite = item.dataset.favorite === 'true';
 
-          let matches = false;
-          if (activeFilters.has(type)) matches = true;
-          if (activeFilters.has('favorite') && isFavorite) matches = true;
+          // Logic: (No types selected OR matches a selected type) AND (Favorite not selected OR item is favorite)
+          const matchesType = showAllTypes || currentTypes.has(type);
+          const matchesFavorite = !filterFavorite || isFavorite;
 
-          item.classList.toggle('hidden', !matches);
+          const visible = matchesType && matchesFavorite;
+
+          item.classList.toggle('hidden', !visible);
         });
 
         // Hide empty year groups
@@ -106,7 +105,7 @@
         });
 
         // Update button states
-        allBtn.classList.toggle('active', showAll);
+        allBtn.classList.toggle('active', activeFilters.size === 0);
         filterBtns.forEach(btn => {
           btn.classList.toggle('active', activeFilters.has(btn.dataset.filter));
         });
