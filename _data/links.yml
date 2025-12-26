@@ -10,6 +10,24 @@
   date: 2025-12-24
   note: "Karpathy reviewing reasoning models, RLVR, and the state of LLMs."
 
+- title: "From Shortcuts to Sabotage"
+  url: "https://www.anthropic.com/research/reward-hacking"
+  type: blog
+  date: 2025-11-01
+  note: "Anthropic. Reward hacking → emergent misalignment. 'Inoculation prompting' as a defense."
+
+- title: "Monitoring Frontier Reasoning Models"
+  url: "https://openai.com/index/chain-of-thought-monitoring/"
+  type: blog
+  date: 2025-03-01
+  note: "OpenAI. Models thinking 'Let's hack' in hidden CoT. Penalizing bad thoughts just hides intent."
+
+- title: "How AI Exploits the Goals We Give It"
+  url: "https://aripolicybytes.substack.com/p/how-ai-exploits-goals"
+  type: blog
+  date: 2025-06-01
+  note: "ARI. Overview of o3-mini gaming METR audits instead of solving math."
+
 - title: "The Most Complex Model We Actually Understand"
   url: "https://www.youtube.com/watch?v=D8GOeCFFby4"
   type: video
@@ -173,6 +191,12 @@
   type: video
   date: 2024-12-23
   note: "Welch Labs. Reverse-engineering the weights to understand computation."
+
+- title: "WARM: Weight Averaged Reward Models"
+  url: "https://arxiv.org/abs/2401.12187"
+  type: paper
+  date: 2024-11-01
+  note: "DeepMind. Averaging reward model weights for robustness. Harder for LLMs to exploit."
 
 - title: "Machines of Loving Grace"
   url: "https://darioamodei.com/machines-of-loving-grace"
