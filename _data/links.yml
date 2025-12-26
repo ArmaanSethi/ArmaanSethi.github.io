@@ -599,13 +599,13 @@
   url: "https://theneural.wordpress.com/2011/07/08/the-miracle-of-the-boltzmann-machine/"
   type: blog
   date: 2011-07-08
-  note: "Sutskever. On the theoretical beauty vs practical difficulty of energy-based models."
+  note: "Sutskever. The only model that uses 'dreams' for computation. 'The BM forgets its dreams due to a simple equation... It is so remarkable I believe the BM to be right.'"
 
 - title: "The Futility of Gigantic Training Sets"
   url: "https://theneural.wordpress.com/2011/07/06/the-futility-of-gigantic-training-sets/"
   type: blog
   date: 2011-07-06
-  note: "Sutskever. Arguing that data scale is useless without model scale. Early intuition for scaling laws."
+  note: "Sutskever rejecting the 2011 consensus that 'simple models + huge data' is enough. 'Simple models will necessarily fail to reach human level performance... more powerful models will eventually outperform them.'"
 
 # --- 2009 ---
 
