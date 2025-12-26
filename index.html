@@ -34,6 +34,15 @@
     <section>
       <h2>Reading List</h2>
 
+      <!-- Filter buttons -->
+      <div class="filters" id="filters">
+        <button class="filter-btn active" data-filter="all">all</button>
+        <button class="filter-btn" data-filter="paper">paper</button>
+        <button class="filter-btn" data-filter="video">video</button>
+        <button class="filter-btn" data-filter="blog">blog</button>
+        <button class="filter-btn" data-filter="favorite">★</button>
+      </div>
+
       {% assign sorted_links = site.data.links | sort: "date" | reverse %}
       {% assign links_by_year = sorted_links | group_by_exp: "link", "link.date | date: '%Y'" %}
 
@@ -42,7 +51,7 @@
         <div class="year-label">{{ year_group.name }}</div>
         <ul class="link-list">
           {% for link in year_group.items %}
-          <li class="link-item">
+          <li class="link-item" data-type="{{ link.type }}" data-favorite="{{ link.favorite }}">
             <span class="link-title">
               {% if link.type %}<span class="link-type link-type--{{ link.type }}">{{ link.type }}</span>{% endif %}
               <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a>
@@ -60,6 +69,69 @@
       <p>Last updated {{ site.time | date: "%B %Y" }}</p>
     </footer>
   </div>
+
+  <script>
+    (function () {
+      const filters = document.getElementById('filters');
+      const allBtn = filters.querySelector('[data-filter="all"]');
+      const filterBtns = filters.querySelectorAll('.filter-btn:not([data-filter="all"])');
+      const items = document.querySelectorAll('.link-item');
+      const yearGroups = document.querySelectorAll('.year-group');
+
+      let activeFilters = new Set();
+
+      function updateDisplay() {
+        const showAll = activeFilters.size === 0;
+
+        items.forEach(item => {
+          if (showAll) {
+            item.classList.remove('hidden');
+            return;
+          }
+
+          const type = item.dataset.type;
+          const isFavorite = item.dataset.favorite === 'true';
+
+          let matches = false;
+          if (activeFilters.has(type)) matches = true;
+          if (activeFilters.has('favorite') && isFavorite) matches = true;
+
+          item.classList.toggle('hidden', !matches);
+        });
+
+        // Hide empty year groups
+        yearGroups.forEach(group => {
+          const visibleItems = group.querySelectorAll('.link-item:not(.hidden)');
+          group.classList.toggle('hidden', visibleItems.length === 0);
+        });
+
+        // Update button states
+        allBtn.classList.toggle('active', showAll);
+        filterBtns.forEach(btn => {
+          btn.classList.toggle('active', activeFilters.has(btn.dataset.filter));
+        });
+      }
+
+      filters.addEventListener('click', (e) => {
+        const btn = e.target.closest('.filter-btn');
+        if (!btn) return;
+
+        const filter = btn.dataset.filter;
+
+        if (filter === 'all') {
+          activeFilters.clear();
+        } else {
+          if (activeFilters.has(filter)) {
+            activeFilters.delete(filter);
+          } else {
+            activeFilters.add(filter);
+          }
+        }
+
+        updateDisplay();
+      });
+    })();
+  </script>
 </body>
 
 </html>

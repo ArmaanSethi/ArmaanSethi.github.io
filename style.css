@@ -103,6 +103,68 @@ section h2 {
     border-bottom: 1px solid var(--border);
 }
 
+/* Filters */
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.filter-btn {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text-muted);
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    transition: all 0.15s ease;
+}
+
+.filter-btn:hover {
+    border-color: var(--text-muted);
+}
+
+.filter-btn.active {
+    background: var(--text);
+    color: var(--bg);
+    border-color: var(--text);
+}
+
+.filter-btn[data-filter="paper"].active {
+    background: #6366f1;
+    border-color: #6366f1;
+    color: white;
+}
+
+.filter-btn[data-filter="video"].active {
+    background: #ef4444;
+    border-color: #ef4444;
+    color: white;
+}
+
+.filter-btn[data-filter="blog"].active {
+    background: #22c55e;
+    border-color: #22c55e;
+    color: white;
+}
+
+.filter-btn[data-filter="favorite"].active {
+    background: var(--favorite);
+    border-color: var(--favorite);
+    color: white;
+}
+
+/* Hidden state for filtering */
+.hidden {
+    display: none !important;
+}
+
 /* Year Groups */
 .year-group {
     margin-bottom: 2rem;
