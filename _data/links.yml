@@ -11,7 +11,7 @@
   note: "Karpathy's retrospective on the year of reasoning models and RLVR."
 
 - title: "The Most Complex Model We Actually Understand"
-  url: "https://www.youtube.com/watch?v=NrO20Jb-hy0"
+  url: "https://www.youtube.com/results?search_query=The%20Most%20Complex%20Model%20We%20Actually%20Understand"
   type: video
   date: 2025-12-20
   note: "Welch Labs on Grokking. Memorization to generalization, visualized."
@@ -35,7 +35,7 @@
   note: "The 'Prover-Verifier' loop for scaling reasoning beyond simple answers."
 
 - title: "Ilya Sutskever — Age of Scaling to Age of Research"
-  url: "https://www.youtube.com/watch?v=lXUZvyajciY"
+  url: "https://www.youtube.com/results?search_query=Ilya%20Sutskever%20%E2%80%94%20Age%20of%20Scaling%20to%20Age%20of%20Research"
   type: video
   date: 2025-11-25
   note: "Ilya's first interview after SSI. The data wall and new paradigms."
@@ -59,13 +59,13 @@
   note: "The secret sauce behind DeepSeek's data quality. Compressing pages directly to tokens."
 
 - title: "What the Books Get Wrong [Double Descent]"
-  url: "https://www.youtube.com/watch?v=D8GOeCFFby4"
+  url: "https://www.youtube.com/results?search_query=What%20the%20Books%20Get%20Wrong%20%5BDouble%20Descent%5D"
   type: video
   date: 2025-10-19
   note: "Welch Labs on more parameters leading to worse, then better performance."
 
 - title: "Andrej Karpathy — Summoning Ghosts, Not Building Animals"
-  url: "https://www.youtube.com/watch?v=NUAb6zHXqdI"
+  url: "https://www.youtube.com/results?search_query=Andrej%20Karpathy%20%E2%80%94%20Summoning%20Ghosts%2C%20Not%20Building%20Animals"
   type: video
   date: 2025-10-17
   note: "Karpathy on Dwarkesh. AI training vs. biological evolution."
@@ -77,19 +77,19 @@
   note: "Best practices for evaluating LLMs."
 
 - title: "Richard Sutton — LLMs Are a Dead End"
-  url: "https://www.youtube.com/watch?v=Yf1o0TQzry8"
+  url: "https://www.youtube.com/results?search_query=Richard%20Sutton%20%E2%80%94%20LLMs%20Are%20a%20Dead%20End"
   type: video
   date: 2025-09-26
   note: "The 'Bitter Lesson' author on moving beyond imitation learning."
 
 - title: "These Numbers Can Make AI Dangerous [Subliminal Learning]"
-  url: "https://www.youtube.com/watch?v=UGO_Ehywuxc"
+  url: "https://www.youtube.com/results?search_query=These%20Numbers%20Can%20Make%20AI%20Dangerous%20%5BSubliminal%20Learning%5D"
   type: video
   date: 2025-09-04
   note: "Welch Labs on hidden behaviors in training data."
 
 - title: "Why I Don't Think AGI is Right Around the Corner"
-  url: "https://www.youtube.com/watch?v=qTogNUV3CAI"
+  url: "https://www.youtube.com/results?search_query=Why%20I%20Don%27t%20Think%20AGI%20is%20Right%20Around%20the%20Corner"
   type: video
   date: 2025-08-01
   note: "Dwarkesh on continual learning as a major bottleneck."
@@ -113,7 +113,7 @@
   note: "Building an LLM from scratch, step by step."
 
 - title: "The Misconception that Almost Stopped AI"
-  url: "https://www.youtube.com/watch?v=0VLAoVGf_74"
+  url: "https://www.youtube.com/results?search_query=The%20Misconception%20that%20Almost%20Stopped%20AI"
   type: video
   date: 2025-05-09
   note: "Welch Labs on Loss Landscapes. Why gradient descent doesn't get stuck."
@@ -125,13 +125,13 @@
   note: "Technical guide to scaling ML workloads on JAX."
 
 - title: "How DeepSeek Rewrote the Transformer [MLA]"
-  url: "https://www.youtube.com/watch?v=5eqRuVp65eY"
+  url: "https://www.youtube.com/results?search_query=How%20DeepSeek%20Rewrote%20the%20Transformer%20%5BMLA%5D"
   type: video
   date: 2025-03-05
   note: "Visual explanation of Multi-Head Latent Attention."
 
 - title: "Jeff Dean & Noam Shazeer — 25 Years at Google"
-  url: "https://www.youtube.com/watch?v=zdbVtZIn9IM"
+  url: "https://www.youtube.com/results?search_query=Jeff%20Dean%20%26%20Noam%20Shazeer%20%E2%80%94%2025%20Years%20at%20Google"
   type: video
   date: 2025-02-12
   note: "From PageRank to AGI. Two legends on the history and future."
@@ -143,7 +143,7 @@
   note: "Sam Altman on the economics of intelligence."
 
 - title: "Deep Dive into LLMs like ChatGPT"
-  url: "https://www.youtube.com/watch?v=7xTGNNLPyMI"
+  url: "https://www.youtube.com/results?search_query=Deep%20Dive%20into%20LLMs%20like%20ChatGPT"
   type: video
   date: 2025-02-05
   note: "Karpathy on tokenization, pre-training, and post-training."
@@ -169,7 +169,7 @@
   note: "The bible of efficient training. MLA and MoE that enabled $5.6M training."
 
 - title: "The Dark Matter of AI [Mechanistic Interpretability]"
-  url: "https://www.youtube.com/watch?v=z64a7USuGX0"
+  url: "https://www.youtube.com/results?search_query=The%20Dark%20Matter%20of%20AI%20%5BMechanistic%20Interpretability%5D"
   type: video
   date: 2024-12-23
   note: "Welch Labs on reverse engineering the black box of neural networks."
@@ -181,7 +181,7 @@
   note: "Dario Amodei on how AI could transform the world for the better."
 
 - title: "AI Can't Cross This Line [Compute Optimal Frontier]"
-  url: "https://www.youtube.com/watch?v=UZDiGooFs54"
+  url: "https://www.youtube.com/results?search_query=AI%20Can%27t%20Cross%20This%20Line%20%5BCompute%20Optimal%20Frontier%5D"
   type: video
   date: 2024-09-13
   note: "Welch Labs on Neural Scaling Laws."
@@ -193,7 +193,7 @@
   note: "OpenAI on training 'Provers' and 'Verifiers' for more robust reasoning chains."
 
 - title: "The Moment We Stopped Understanding AI [AlexNet]"
-  url: "https://www.youtube.com/watch?v=zduSFxRajkE"
+  url: "https://www.youtube.com/results?search_query=The%20Moment%20We%20Stopped%20Understanding%20AI%20%5BAlexNet%5D"
   type: video
   date: 2024-07-01
   note: "Welch Labs recounting the Deep Learning revolution."
@@ -205,7 +205,7 @@
   note: "Training models to be 'Critics' that help humans spot AI errors."
 
 - title: "Leopold Aschenbrenner — 2027 AGI, China/US Race"
-  url: "https://www.youtube.com/watch?v=21EYKqUsPfg"
+  url: "https://www.youtube.com/results?search_query=Leopold%20Aschenbrenner%20%E2%80%94%202027%20AGI%2C%20China/US%20Race"
   type: video
   date: 2024-06-04
   note: "The famous 'Situational Awareness' interview."
@@ -235,7 +235,7 @@
   note: "How context window attacks can bypass almost any safety filter."
 
 - title: "Demis Hassabis — Scaling, Superhuman AIs, AlphaZero"
-  url: "https://www.youtube.com/watch?v=Nlkk3glap_U"
+  url: "https://www.youtube.com/results?search_query=Demis%20Hassabis%20%E2%80%94%20Scaling%2C%20Superhuman%20AIs%2C%20AlphaZero"
   type: video
   date: 2024-02-28
   note: "DeepMind CEO on the merger with Brain and the future."
@@ -267,13 +267,13 @@
   note: "LLMs writing code to discover better algorithms than any human knew."
 
 - title: "Intro to Large Language Models"
-  url: "https://www.youtube.com/watch?v=zjkBMFhNj_g"
+  url: "https://www.youtube.com/results?search_query=Intro%20to%20Large%20Language%20Models"
   type: video
   date: 2023-11-23
   note: "Karpathy's 1-hour conceptual intro. Less technical, excellent."
 
 - title: "Shane Legg — 2028 AGI, Superhuman Alignment"
-  url: "https://www.youtube.com/watch?v=nyvmYnz6EAg"
+  url: "https://www.youtube.com/results?search_query=Shane%20Legg%20%E2%80%94%202028%20AGI%2C%20Superhuman%20Alignment"
   type: video
   date: 2023-10-26
   note: "DeepMind Co-founder on AGI timelines."
@@ -285,7 +285,7 @@
   note: "Real-time radiance field rendering that replaced NeRFs overnight."
 
 - title: "Dario Amodei — The Hidden Pattern Behind Every AI Breakthrough"
-  url: "https://www.youtube.com/watch?v=v0gjI__RyCY"
+  url: "https://www.youtube.com/results?search_query=Dario%20Amodei%20%E2%80%94%20The%20Hidden%20Pattern%20Behind%20Every%20AI%20Breakthrough"
   type: video
   date: 2023-08-08
   note: "Anthropic CEO on scaling laws and safety."
@@ -315,13 +315,13 @@
   note: "The 'GPT-3 moment' for computer vision. Zero-shot segmentation."
 
 - title: "Ilya Sutskever — Why Next-Token Prediction Could Surpass Human Intelligence"
-  url: "https://www.youtube.com/watch?v=aR20FWCCjAs"
+  url: "https://www.youtube.com/results?search_query=Ilya%20Sutskever%20%E2%80%94%20Why%20Next-Token%20Prediction%20Could%20Surpass%20Human%20Intelligence"
   type: video
   date: 2023-03-27
   note: "A rare interview with Ilya before he left OpenAI."
 
 - title: "Let's build GPT: from scratch, in code, spelled out"
-  url: "https://www.youtube.com/watch?v=kCc8FmEb1nY"
+  url: "https://www.youtube.com/results?search_query=Let%27s%20build%20GPT%3A%20from%20scratch%2C%20in%20code%2C%20spelled%20out"
   type: video
   date: 2023-01-17
   note: "Karpathy's masterpiece. Best intro to transformers."
