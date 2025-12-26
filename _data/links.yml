@@ -234,6 +234,12 @@
   date: 2024-04-02
   note: "Anthropic. In-context examples can jailbreak any safety filter."
 
+- title: "SIMA: Scalable Instructable Multiworld Agent"
+  url: "https://deepmind.google/discover/blog/sima-generalist-ai-agent-for-3d-virtual-environments/"
+  type: blog
+  date: 2024-03-13
+  note: "DeepMind. Language-instructable agent playing games like No Man's Sky and Valheim."
+
 - title: "Demis Hassabis — Scaling, Superhuman AIs, AlphaZero"
   url: "https://www.youtube.com/watch?v=Nlkk3glap_U"
   type: video
@@ -266,6 +272,12 @@
   date: 2023-12-14
   note: "Romera-Paredes et al. LLM-guided evolution finding new math and CS algorithms."
 
+- title: "Gemini: A Family of Highly Capable Multimodal Models"
+  url: "https://arxiv.org/abs/2312.11805"
+  type: paper
+  date: 2023-12-06
+  note: "DeepMind. Native multimodal from the ground up. Gemini Ultra, Pro, Nano."
+
 - title: "Intro to Large Language Models"
   url: "https://www.youtube.com/watch?v=zjkBMFhNj_g"
   type: video
@@ -289,6 +301,12 @@
   type: video
   date: 2023-08-08
   note: "Amodei on scaling laws, emergent capabilities, and Anthropic's approach."
+
+- title: "RT-2: Vision-Language-Action Models"
+  url: "https://deepmind.google/discover/blog/rt-2-new-model-translates-vision-and-language-into-action/"
+  type: blog
+  date: 2023-07-28
+  note: "DeepMind robotics. VLMs directly outputting robot actions. Web knowledge → physical world."
 
 - title: "Direct Preference Optimization (DPO)"
   url: "https://arxiv.org/abs/2305.18290"
@@ -332,28 +350,6 @@
   date: 2023-01-10
   note: "Hafner et al. Mastering Minecraft entirely inside a learned world model."
 
-# --- 2024 (more) ---
-
-- title: "SIMA: Scalable Instructable Multiworld Agent"
-  url: "https://deepmind.google/discover/blog/sima-generalist-ai-agent-for-3d-virtual-environments/"
-  type: blog
-  date: 2024-03-13
-  note: "DeepMind. Language-instructable agent playing games like No Man's Sky and Valheim."
-
-# --- 2023 (more) ---
-
-- title: "Gemini: A Family of Highly Capable Multimodal Models"
-  url: "https://arxiv.org/abs/2312.11805"
-  type: paper
-  date: 2023-12-06
-  note: "DeepMind. Native multimodal from the ground up. Gemini Ultra, Pro, Nano."
-
-- title: "RT-2: Vision-Language-Action Models"
-  url: "https://deepmind.google/discover/blog/rt-2-new-model-translates-vision-and-language-into-action/"
-  type: blog
-  date: 2023-07-28
-  note: "DeepMind robotics. VLMs directly outputting robot actions. Web knowledge → physical world."
-
 # --- 2022 ---
 
 - title: "Gato: A Generalist Agent"
@@ -396,17 +392,17 @@
 
 # --- 2020 ---
 
-- title: "Vision Transformer (ViT)"
-  url: "https://arxiv.org/abs/2010.11929"
-  type: paper
-  date: 2020-10-22
-  note: "Dosovitskiy et al. Transformers work for vision too. No convolutions needed."
-
 - title: "MuZero: Mastering Games without Knowing the Rules"
   url: "https://deepmind.google/discover/blog/muzero-mastering-go-chess-shogi-and-atari-without-rules/"
   type: blog
   date: 2020-12-23
   note: "Schrittwieser et al. Learns dynamics internally. No game rules provided."
+
+- title: "Vision Transformer (ViT)"
+  url: "https://arxiv.org/abs/2010.11929"
+  type: paper
+  date: 2020-10-22
+  note: "Dosovitskiy et al. Transformers work for vision too. No convolutions needed."
 
 - title: "GPT-3: Language Models are Few-Shot Learners"
   url: "https://arxiv.org/abs/2005.14165"
@@ -420,32 +416,6 @@
   date: 2020-03-19
   note: "Mildenhall et al. Novel view synthesis from sparse images using MLPs."
 
-# --- 2018 ---
-
-- title: "BERT"
-  url: "https://arxiv.org/abs/1810.04805"
-  type: paper
-  date: 2018-10-11
-  note: "Devlin et al. Bidirectional pre-training. Still powers search and NLP."
-
-- title: "AlphaFold 1"
-  url: "https://deepmind.google/blog/alphafold-using-ai-for-scientific-discovery/"
-  type: blog
-  date: 2018-12-02
-  note: "CASP13 win. First deep learning entry to protein folding."
-
-- title: "World Models"
-  url: "https://worldmodels.github.io/"
-  type: blog
-  date: 2018-03-27
-  note: "Ha & Schmidhuber. Car racing solved entirely inside a learned 'dream'."
-
-- title: "GPT-1: Improving Language Understanding by Generative Pre-Training"
-  url: "https://openai.com/index/language-unsupervised/"
-  type: blog
-  date: 2018-06-11
-  note: "Radford et al. Unsupervised pre-training + supervised fine-tuning. GPT lineage begins."
-
 # --- 2019 ---
 
 - title: "GPT-2: Language Models are Unsupervised Multitask Learners"
@@ -453,6 +423,32 @@
   type: blog
   date: 2019-02-14
   note: "Radford et al. 1.5B params. 'Too dangerous to release.' Scale starting to show emergent abilities."
+
+# --- 2018 ---
+
+- title: "AlphaFold 1"
+  url: "https://deepmind.google/blog/alphafold-using-ai-for-scientific-discovery/"
+  type: blog
+  date: 2018-12-02
+  note: "CASP13 win. First deep learning entry to protein folding."
+
+- title: "BERT"
+  url: "https://arxiv.org/abs/1810.04805"
+  type: paper
+  date: 2018-10-11
+  note: "Devlin et al. Bidirectional pre-training. Still powers search and NLP."
+
+- title: "GPT-1: Improving Language Understanding by Generative Pre-Training"
+  url: "https://openai.com/index/language-unsupervised/"
+  type: blog
+  date: 2018-06-11
+  note: "Radford et al. Unsupervised pre-training + supervised fine-tuning. GPT lineage begins."
+
+- title: "World Models"
+  url: "https://worldmodels.github.io/"
+  type: blog
+  date: 2018-03-27
+  note: "Ha & Schmidhuber. Car racing solved entirely inside a learned 'dream'."
 
 # --- 2017 ---
 
@@ -581,3 +577,4 @@
   type: paper
   date: 2004-12-01
   note: "Dean & Ghemawat. Simplified distributed computing at scale."
+
