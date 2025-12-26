@@ -348,11 +348,29 @@
   date: 2021-12-20
   note: "Moving diffusion to latent space made generative AI accessible."
 
+- title: "AlphaFold 2"
+  url: "https://www.nature.com/articles/s41586-021-03819-2"
+  type: paper
+  date: 2021-07-15
+  note: "Solving the protein folding problem. One of the most important scientific papers of the century."
+
 - title: "Decision Transformer"
   url: "https://arxiv.org/abs/2106.01345"
   type: paper
   date: 2021-06-02
   note: "Treating RL as a sequence modeling problem."
+
+- title: "DALL·E: Creating Images from Text"
+  url: "https://openai.com/research/dall-e"
+  type: blog
+  date: 2021-01-05
+  note: "The first coherent text-to-image AI. The birth of AI art."
+
+- title: "CLIP"
+  url: "https://arxiv.org/abs/2103.00020"
+  type: paper
+  date: 2021-01-05
+  note: "The 'glue' connecting text and images. Powers Stable Diffusion, Midjourney."
 
 # --- 2020 ---
 
@@ -362,19 +380,37 @@
   date: 2020-10-22
   note: "Proving pure Transformers can beat CNNs at vision tasks."
 
-- title: "NeRF"
-  url: "https://www.matthewtancik.com/nerf"
-  type: blog
-  date: 2020-03-19
-  note: "View synthesis from sparse images. A modern classic."
-
 - title: "MuZero: Mastering Games without Knowing the Rules"
   url: "https://deepmind.google/discover/blog/muzero-mastering-go-chess-shogi-and-atari-without-rules/"
   type: blog
   date: 2020-12-23
   note: "Successor to AlphaZero. Learns to play games without being told the rules."
 
+- title: "GPT-3: Language Models are Few-Shot Learners"
+  url: "https://arxiv.org/abs/2005.14165"
+  type: paper
+  date: 2020-05-28
+  note: "The paper that changed everything. 175B params learning tasks from prompts."
+
+- title: "NeRF"
+  url: "https://www.matthewtancik.com/nerf"
+  type: blog
+  date: 2020-03-19
+  note: "View synthesis from sparse images. A modern classic."
+
 # --- 2018 ---
+
+- title: "BERT"
+  url: "https://arxiv.org/abs/1810.04805"
+  type: paper
+  date: 2018-10-11
+  note: "Google's bidirectional transformer. Revolutionized search and NLP."
+
+- title: "AlphaFold 1"
+  url: "https://deepmind.google/blog/alphafold-using-ai-for-scientific-discovery/"
+  type: blog
+  date: 2018-12-02
+  note: "The CASP13 win that shocked the biology world."
 
 - title: "World Models"
   url: "https://worldmodels.github.io/"
@@ -408,6 +444,22 @@
   date: 2017-01-01
   note: "Legendary visual intro to neural networks. Includes transformer math visualized."
 
+# --- 2016 ---
+
+- title: "WaveNet: A Generative Model for Raw Audio"
+  url: "https://deepmind.google/blog/wavenet-a-generative-model-for-raw-audio/"
+  type: blog
+  date: 2016-09-08
+  note: "DeepMind. The first time computer-generated speech sounded human."
+
+# --- 2015 ---
+
+- title: "ResNet: Deep Residual Learning"
+  url: "https://arxiv.org/abs/1512.03385"
+  type: paper
+  date: 2015-12-10
+  note: "Skip connections allowing 100+ layer networks. Backbone of modern CV."
+
 # --- 2014 ---
 
 - title: "Sequence to Sequence Learning"
@@ -415,6 +467,12 @@
   type: paper
   date: 2014-09-10
   note: "Sutskever, Vinyals, Le. The birth of encoder-decoder architectures."
+
+- title: "Generative Adversarial Networks (GANs)"
+  url: "https://arxiv.org/abs/1406.2661"
+  type: paper
+  date: 2014-06-10
+  note: "Ian Goodfellow. Generator vs Discriminator. Dominated before Diffusion."
 
 # --- 2013 ---
 
@@ -435,6 +493,12 @@
   type: paper
   date: 2013-08-04
   note: "Alex Graves demonstrating the power of LSTMs for handwriting and text."
+
+- title: "Word2Vec"
+  url: "https://arxiv.org/abs/1301.3781"
+  type: paper
+  date: 2013-01-16
+  note: "Mikolov. King - Man + Woman = Queen. Foundation of how LLMs understand meaning."
 
 # --- 2012 ---
 
