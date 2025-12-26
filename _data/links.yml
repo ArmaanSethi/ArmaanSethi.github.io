@@ -418,6 +418,20 @@
   date: 2018-03-27
   note: "Ha & Schmidhuber. Car racing solved entirely inside a learned 'dream'."
 
+- title: "GPT-1: Improving Language Understanding by Generative Pre-Training"
+  url: "https://openai.com/index/language-unsupervised/"
+  type: blog
+  date: 2018-06-11
+  note: "Radford et al. Unsupervised pre-training + supervised fine-tuning. GPT lineage begins."
+
+# --- 2019 ---
+
+- title: "GPT-2: Language Models are Unsupervised Multitask Learners"
+  url: "https://openai.com/index/better-language-models/"
+  type: blog
+  date: 2019-02-14
+  note: "Radford et al. 1.5B params. 'Too dangerous to release.' Scale starting to show emergent abilities."
+
 # --- 2017 ---
 
 - title: "Software 2.0"
@@ -520,7 +534,7 @@
   url: "https://www.vetta.org/2010/12/goodbye-2010/"
   type: blog
   date: 2010-12-31
-  note: "Shane Legg's year-end reflections and predictions for the 2010s."
+  note: "Legg's 2010 reflections. Predicted hardware not a bottleneck, more AGI projects from 2015."
 
 # --- 2009 ---
 
@@ -528,7 +542,7 @@
   url: "https://www.vetta.org/2009/12/the-teenies/"
   type: blog
   date: 2009-12-31
-  note: "Shane Legg's predictions for the decade ahead. Remarkably prescient."
+  note: "Legg predicting AGI mean of 2028, 'proto-AGI' by 2017, 10^18 FLOPS by 2018. Eerily accurate."
 
 # --- 2008 ---
 
