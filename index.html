@@ -34,14 +34,14 @@
     <section>
       <h2>Reading List</h2>
 
-      {% assign links_by_year = site.data.links | group_by: "year" | sort: "name" | reverse %}
+      {% assign sorted_links = site.data.links | sort: "date" | reverse %}
+      {% assign links_by_year = sorted_links | group_by_exp: "link", "link.date | date: '%Y'" %}
 
       {% for year_group in links_by_year %}
       <div class="year-group">
         <div class="year-label">{{ year_group.name }}</div>
         <ul class="link-list">
-          {% assign sorted_links = year_group.items | sort: "title" %}
-          {% for link in sorted_links %}
+          {% for link in year_group.items %}
           <li class="link-item">
             <span class="link-title">
               <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a>

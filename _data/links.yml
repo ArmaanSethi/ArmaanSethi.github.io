@@ -1,220 +1,130 @@
 # Things I Find Interesting
 # Add new entries at the top. Set favorite: true to highlight.
-# The site auto-groups by year and shows favorites with a star.
+# Use date: YYYY-MM-DD for sorting within year groups.
 
-# 2025
-- title: "SFT Memorizes, RL Generalizes"
-  url: "https://tianzhechu.com/SFTvsRL/"
-  year: 2025
-  note: "Comparative study showing RL generalizes better than SFT for post-training."
+# --- 2025 ---
+
+- title: "2025 LLM Year in Review"
+  url: "https://karpathy.bearblog.dev/year-in-review-2025/"
+  date: 2025-12-20
+  note: "Andrej Karpathy's retrospective on the year of reasoning models and RLVR."
+  favorite: true
+
+- title: "AI Reasoning Engines: The 2026 Handbook"
+  url: "https://docs.google.com/document/d/1WUk_A3LDvRJ8ZNvRG--vhI287nDMR-VNM4YOV8mctbI/mobilebasic#h.4pldaqyumgtn"
+  date: 2025-12-01
+  note: "A comprehensive guide to the new stack of reasoning models."
+  favorite: true
+
+- title: "Three Observations"
+  url: "https://blog.samaltman.com/three-observations"
+  date: 2025-11-15
+  note: "Sam Altman on the economics of intelligence and the 'super-exponential' value of AI."
+
+- title: "Kimi-Linear: An Expressive, Efficient Attention Architecture"
+  url: "https://vizuara.substack.com/p/fdd27b47-2856-44dc-9c56-a7d1aa2d95e3"
+  date: 2025-10-01
+  note: "A linear-time scaling architecture for ultra-long context modeling."
 
 - title: "JustRL: Scaling a 1.5B LLM with a Simple RL Recipe"
   url: "https://www.alphaxiv.org/abs/2512.16649"
-  year: 2025
-  note: "Simple RL recipe that scales effectively for smaller models."
+  date: 2025-12-16
+  note: "AlphaXiv paper showing simple RL can match complex pipelines."
 
-- title: "From DeepSeek V3 to V3.2: Architecture, Sparse Attention, and RL Updates"
-  url: "https://magazine.sebastianraschka.com/p/technical-deepseek"
-  year: 2025
-  note: "Sebastian Raschka's technical tour of DeepSeek's evolution."
+- title: "The Smol Training Playbook"
+  url: "https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook"
+  date: 2025-06-01
+  note: "Hugging Face's definitive guide to training small language models."
   favorite: true
 
-- title: "The Big LLM Architecture Comparison"
-  url: "https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison"
-  year: 2025
-  note: "From DeepSeek to Kimi: comparing modern LLM architecture designs."
+# --- 2024 ---
+
+- title: "Machines of Loving Grace"
+  url: "https://darioamodei.com/machines-of-loving-grace"
+  date: 2024-10-12
+  note: "Dario Amodei (Anthropic CEO) on how AI could transform the world for the better."
   favorite: true
 
-- title: "Understanding Reasoning LLMs"
-  url: "https://magazine.sebastianraschka.com/p/understanding-reasoning-llms"
-  year: 2025
-  note: "Methods and strategies for building and refining reasoning models."
+- title: "Situational Awareness"
+  url: "https://situational-awareness.ai/"
+  date: 2024-06-01
+  note: "Leopold Aschenbrenner's series on the decade ahead in AGI."
   favorite: true
-
-- title: "Sporks of AGI"
-  url: "https://sergeylevine.substack.com/p/sporks-of-agi"
-  year: 2025
-  note: "Sergey Levine on why the real thing is better than the next best thing."
-
-- title: "Using LLMs for Code"
-  url: "https://simonwillison.net/2025/Mar/11/using-llms-for-code/"
-  year: 2025
-  note: "Simon Willison's practical guide to coding with LLMs."
-
-# 2024
-- title: "Prompt Caching: 10x Cheaper LLM Tokens"
-  url: "https://ngrok.com/blog/prompt-caching/"
-  year: 2024
-  note: "Far more detailed explanation of prompt caching than anyone asked for."
 
 - title: "Scaling Monosemanticity"
   url: "https://transformer-circuits.pub/2024/scaling-monosemanticity/"
-  year: 2024
+  date: 2024-05-21
   note: "Anthropic finally cracking open the black box."
 
-- title: "Reward Hacking in Reinforcement Learning"
-  url: "https://lilianweng.github.io/posts/2024-11-28-reward-hacking/"
-  year: 2024
-  note: "Lilian Weng's comprehensive guide to reward hacking and mitigations."
-  favorite: true
+# --- 2023 ---
 
-- title: "Smol Training Playbook"
-  url: "https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook"
-  year: 2024
-  note: "HuggingFace's practical guide to training small language models."
+- title: "Planning for AGI and beyond"
+  url: "https://blog.samaltman.com/planning-for-agi-and-beyond"
+  date: 2023-02-24
+  note: "Sam Altman outlining OpenAI's roadmap for safe AGI deployment."
 
-- title: "Evaluation Guidebook"
-  url: "https://huggingface.co/spaces/OpenEvals/evaluation-guidebook"
-  year: 2024
-  note: "Comprehensive guide to evaluating language models."
-
-- title: "HuggingFace Skills Training"
-  url: "https://huggingface.co/blog/hf-skills-training"
-  year: 2024
-  note: "Teaching LLMs new skills through targeted fine-tuning."
-
-- title: "Scaling Book (JAX-ML)"
-  url: "https://jax-ml.github.io/scaling-book/"
-  year: 2024
-  note: "Comprehensive guide to scaling ML systems with JAX."
-
-- title: "Post-Training 101"
-  url: "https://tokens-for-thoughts.notion.site/post-training-101"
-  year: 2024
-  note: "Primer on post-training techniques for language models."
-
-- title: "LLM Post-Training Playbook"
-  url: "https://docs.google.com/document/d/1WUk_A3LDvRJ8ZNvRG--vhI287nDMR-VNM4YOV8mctbI/mobilebasic"
-  year: 2024
-  note: "Comprehensive guide to LLM post-training strategies."
-
-# 2023
 - title: "Let's build GPT: from scratch, in code, spelled out"
   url: "https://www.youtube.com/watch?v=kCc8FmEb1nY"
-  year: 2023
+  date: 2023-01-17
   note: "Karpathy's masterpiece. Best intro to transformers."
   favorite: true
 
-- title: "Understanding and Coding Self-Attention"
-  url: "https://magazine.sebastianraschka.com/p/understanding-and-coding-self-attention"
-  year: 2023
-  note: "Sebastian Raschka's deep dive into attention mechanisms."
+# --- 2022 ---
 
-- title: "Understanding Large Language Models"
-  url: "https://magazine.sebastianraschka.com/p/understanding-large-language-models"
-  year: 2023
-  note: "Comprehensive overview of LLM architectures and training."
-
-- title: "Understanding Multimodal LLMs"
-  url: "https://magazine.sebastianraschka.com/p/understanding-multimodal-llms"
-  year: 2023
-  note: "How LLMs process and generate multiple modalities."
-
-- title: "From GPT-2 to GPT-OSS: Analyzing the Evolution"
-  url: "https://magazine.sebastianraschka.com/p/from-gpt-2-to-gpt-oss-analyzing-the"
-  year: 2023
-  note: "Tracing the architectural evolution of GPT models."
-
-- title: "Coding LLMs from the Ground Up"
-  url: "https://magazine.sebastianraschka.com/p/coding-llms-from-the-ground-up"
-  year: 2023
-  note: "Hands-on guide to implementing LLMs from scratch."
-
-- title: "Another Annotated Transformer"
-  url: "https://medium.com/@amniskin/another-annotated-transformer-1c7be3f99e23"
-  year: 2023
-  note: "Alternative annotated implementation of the transformer."
-
-# 2022
 - title: "Constitutional AI"
   url: "https://arxiv.org/abs/2212.08073"
-  year: 2022
+  date: 2022-12-15
   note: "Training AI to be helpful, harmless, and honest."
 
-- title: "The Annotated Transformer"
-  url: "https://nlp.seas.harvard.edu/annotated-transformer/"
-  year: 2022
-  note: "Harvard NLP's line-by-line annotation of the transformer paper."
+# --- 2021 ---
+
+- title: "Moore's Law for Everything"
+  url: "https://moores.samaltman.com/"
+  date: 2021-03-16
+  note: "Sam Altman on how AI will lower the cost of goods and services to near zero."
   favorite: true
 
-- title: "Foundation of Deep RL"
-  url: "https://vizuara.substack.com/p/fdd27b47-2856-44dc-9c56-a7d1aa2d95e3"
-  year: 2022
-  note: "Foundational concepts in deep reinforcement learning."
+# --- 2019 ---
 
-# 2019
 - title: "The Bitter Lesson"
   url: "http://www.incompleteideas.net/IncIdeas/BitterLesson.html"
-  year: 2019
+  date: 2019-03-13
   note: "Rich Sutton on why compute always wins."
   favorite: true
 
-- title: "Speed Matters"
-  url: "https://jsomers.net/blog/speed-matters"
-  year: 2019
-  note: "James Somers on why working fast compounds."
+# --- 2017 ---
 
-- title: "Directions"
-  url: "https://jsomers.net/blog/directions"
-  year: 2019
-  note: "On choosing what to work on."
+- title: "Software 2.0"
+  url: "https://karpathy.medium.com/software-2-0-a64152b37c35"
+  date: 2017-11-11
+  note: "Andrej Karpathy on the shift from writing code to curating data."
+  favorite: true
 
-- title: "Feynman's Rigor"
-  url: "https://jsomers.net/blog/feynmans-rigor"
-  year: 2019
-  note: "What made Feynman's thinking so effective."
-
-# 2017
 - title: "Attention Is All You Need"
   url: "https://arxiv.org/abs/1706.03762"
-  year: 2017
-  note: "The paper that started it all. Transformers changed everything."
+  date: 2017-06-12
+  note: "The paper that started it all."
   favorite: true
 
-- title: "I Should Have Loved Biology"
-  url: "https://jsomers.net/i-should-have-loved-biology/"
-  year: 2017
-  note: "James Somers on how biology should be taught."
+# --- 2016 ---
 
-- title: "Playing Codenames with GloVe"
-  url: "https://jsomers.net/glove-codenames"
-  year: 2017
-  note: "Using word embeddings to play Codenames."
+- title: "Deep Reinforcement Learning: Pong from Pixels"
+  url: "http://karpathy.github.io/2016/05/31/rl/"
+  date: 2016-05-31
+  note: "Karpathy explaining policy gradients by training an agent to play Pong."
 
-# 2013
-- title: "Unsupervised Learning"
-  url: "https://theneural.wordpress.com/2013/09/08/unsupervised-learning/"
-  year: 2013
-  note: "Classic post on unsupervised learning foundations."
+# --- 2015 ---
 
-- title: "Universal Approximation and Depth"
-  url: "https://theneural.wordpress.com/2013/01/07/universal-approximation-and-depth/"
-  year: 2013
-  note: "Why depth matters in neural networks."
+- title: "The Unreasonable Effectiveness of Recurrent Neural Networks"
+  url: "http://karpathy.github.io/2015/05/21/rnn-effectiveness/"
+  date: 2015-05-21
+  note: "The legendary blog post that got many people into deep learning."
+  favorite: true
 
-# 2011
+# --- 2011 ---
+
 - title: "Thinking, Fast and Slow"
   url: "https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555"
-  year: 2011
-  note: "Kahneman on System 1 vs System 2. Changed how I think about thinking."
+  date: 2011-10-25
+  note: "Kahneman on System 1 vs System 2."
   favorite: true
-
-- title: "The Useless Beauty of REINFORCE"
-  url: "https://theneural.wordpress.com/2011/09/13/the-useless-beauty-of-reinforce/"
-  year: 2011
-  note: "Classic essay on the elegance and limitations of REINFORCE."
-
-- title: "Undirected Models Are Better at Sampling"
-  url: "https://theneural.wordpress.com/2011/07/17/undirected-models-are-better-at-sampling/"
-  year: 2011
-  note: "Why undirected graphical models sample more efficiently."
-
-- title: "The Miracle of the Boltzmann Machine"
-  url: "https://theneural.wordpress.com/2011/07/08/the-miracle-of-the-boltzmann-machine/"
-  year: 2011
-  note: "Deep dive into why Boltzmann machines work."
-
-- title: "The Futility of Gigantic Training Sets"
-  url: "https://theneural.wordpress.com/2011/07/06/the-futility-of-gigantic-training-sets/"
-  year: 2011
-  note: "Prescient 2011 take on diminishing returns of data scale."
