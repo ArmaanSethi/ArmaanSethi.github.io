@@ -1,28 +1,62 @@
-<!doctype html>
-
+---
+---
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139924290-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
 
-    gtag('config', 'UA-139924290-1');
-  </script>
+  <!-- Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
 
-  <meta charset="utf-8">
-  <title>Armaan Sethi</title>
-  <meta name="theme-color" content="#000000">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">  
+  <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
-<h1>Wins only 2020 - Armaan Sethi</h1>
-<h1>🐔🐔🐔</h1>
+  <div class="container">
+    <header>
+      <h1><a href="/">{{ site.title }}</a></h1>
+      <nav class="social-links">
+        {% if site.linkedin %}<a href="https://linkedin.com/in/{{ site.linkedin }}">LinkedIn</a>{% endif %}
+        {% if site.github %}<a href="https://github.com/{{ site.github }}">GitHub</a>{% endif %}
+        {% if site.email %}<a href="mailto:{{ site.email }}">Email</a>{% endif %}
+      </nav>
+    </header>
+
+    <p class="intro">A collection of things I find interesting.</p>
+
+    <section>
+      <h2>Reading List</h2>
+
+      {% assign links_by_year = site.data.links | group_by: "year" | sort: "name" | reverse %}
+
+      {% for year_group in links_by_year %}
+      <div class="year-group">
+        <div class="year-label">{{ year_group.name }}</div>
+        <ul class="link-list">
+          {% assign sorted_links = year_group.items | sort: "title" %}
+          {% for link in sorted_links %}
+          <li class="link-item">
+            <span class="link-title">
+              <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a>
+              {% if link.favorite %}<span class="favorite-star" title="Favorite">★</span>{% endif %}
+            </span>
+            {% if link.note %}<span class="link-note">{{ link.note }}</span>{% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </section>
+
+    <footer>
+      <p>Last updated {{ site.time | date: "%B %Y" }}</p>
+    </footer>
+  </div>
 </body>
+
 </html>

@@ -1,0 +1,37 @@
+# Things I Find Interesting
+# Add new entries at the top. Set favorite: true to highlight.
+# The site auto-groups by year and shows favorites with a star.
+
+- title: "Attention Is All You Need"
+  url: "https://arxiv.org/abs/1706.03762"
+  year: 2017
+  note: "The paper that started it all. Transformers changed everything."
+  favorite: true
+
+- title: "Let's build GPT: from scratch, in code, spelled out"
+  url: "https://www.youtube.com/watch?v=kCc8FmEb1nY"
+  year: 2023
+  note: "Karpathy's masterpiece. Best intro to transformers."
+  favorite: true
+
+- title: "Scaling Monosemanticity"
+  url: "https://transformer-circuits.pub/2024/scaling-monosemanticity/"
+  year: 2024
+  note: "Anthropic finally cracking open the black box."
+
+- title: "The Bitter Lesson"
+  url: "http://www.incompleteideas.net/IncIdeas/BitterLesson.html"
+  year: 2019
+  note: "Rich Sutton on why compute always wins."
+  favorite: true
+
+- title: "Constitutional AI"
+  url: "https://arxiv.org/abs/2212.08073"
+  year: 2022
+  note: "Training AI to be helpful, harmless, and honest."
+
+- title: "Thinking, Fast and Slow"
+  url: "https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555"
+  year: 2011
+  note: "Kahneman on System 1 vs System 2. Changed how I think about thinking."
+  favorite: true

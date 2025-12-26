@@ -1,1 +1,11 @@
-theme: jekyll-theme-minimal
+title: Armaan Sethi
+description: Things I find interesting
+url: "https://armaansethi.github.io"
+
+# Social links (used in header)
+linkedin: armaansethi
+github: ArmaanSethi
+email: armaansethi3@gmail.com
+
+# Build settings
+markdown: kramdown
