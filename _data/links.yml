@@ -502,6 +502,7 @@
   type: blog
   date: 2017-10-18
   note: "Silver et al. Superhuman Go from self-play alone. Tabula rasa."
+  favorite: true
 
 - title: "Attention Is All You Need"
   url: "https://arxiv.org/abs/1706.03762"
@@ -558,6 +559,7 @@
   type: paper
   date: 2013-12-19
   note: "Mnih et al. at DeepMind. Neural nets learning Atari from raw pixels via Q-learning."
+  favorite: true
 
 - title: "Unsupervised Learning"
   url: "https://theneural.wordpress.com/2013/09/08/unsupervised-learning/"
