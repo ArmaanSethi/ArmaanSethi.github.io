@@ -332,6 +332,28 @@
   date: 2023-01-10
   note: "Hafner et al. Mastering Minecraft entirely inside a learned world model."
 
+# --- 2024 (more) ---
+
+- title: "SIMA: Scalable Instructable Multiworld Agent"
+  url: "https://deepmind.google/discover/blog/sima-generalist-ai-agent-for-3d-virtual-environments/"
+  type: blog
+  date: 2024-03-13
+  note: "DeepMind. Language-instructable agent playing games like No Man's Sky and Valheim."
+
+# --- 2023 (more) ---
+
+- title: "Gemini: A Family of Highly Capable Multimodal Models"
+  url: "https://arxiv.org/abs/2312.11805"
+  type: paper
+  date: 2023-12-06
+  note: "DeepMind. Native multimodal from the ground up. Gemini Ultra, Pro, Nano."
+
+- title: "RT-2: Vision-Language-Action Models"
+  url: "https://deepmind.google/discover/blog/rt-2-new-model-translates-vision-and-language-into-action/"
+  type: blog
+  date: 2023-07-28
+  note: "DeepMind robotics. VLMs directly outputting robot actions. Web knowledge → physical world."
+
 # --- 2022 ---
 
 - title: "Gato: A Generalist Agent"
