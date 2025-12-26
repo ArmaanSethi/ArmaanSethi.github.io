@@ -447,7 +447,7 @@
   note: "Mildenhall et al. Novel view synthesis from sparse images using MLPs."
 
 - title: "Learning the Complete Shape of Concentric Tube Robots"
-  url: "https://ieeexplore.ieee.org/document/8972571"
+  url: "https://ieeexplore.ieee.org/document/9003266"
   type: paper
   date: 2020-01-24
   note: "My paper. Deep learning for surgical robot shape estimation. 173x speedup over classical methods."
