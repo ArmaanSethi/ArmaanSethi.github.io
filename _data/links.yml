@@ -1,130 +1,141 @@
 # Things I Find Interesting
 # Add new entries at the top. Set favorite: true to highlight.
-# Use date: YYYY-MM-DD for sorting within year groups.
+# Dates ending in '-01' are approximate month/year estimates.
 
 # --- 2025 ---
 
 - title: "2025 LLM Year in Review"
   url: "https://karpathy.bearblog.dev/year-in-review-2025/"
-  date: 2025-12-20
-  note: "Andrej Karpathy's retrospective on the year of reasoning models and RLVR."
-  favorite: true
-
-- title: "AI Reasoning Engines: The 2026 Handbook"
-  url: "https://docs.google.com/document/d/1WUk_A3LDvRJ8ZNvRG--vhI287nDMR-VNM4YOV8mctbI/mobilebasic#h.4pldaqyumgtn"
-  date: 2025-12-01
-  note: "A comprehensive guide to the new stack of reasoning models."
-  favorite: true
-
-- title: "Three Observations"
-  url: "https://blog.samaltman.com/three-observations"
-  date: 2025-11-15
-  note: "Sam Altman on the economics of intelligence and the 'super-exponential' value of AI."
-
-- title: "Kimi-Linear: An Expressive, Efficient Attention Architecture"
-  url: "https://vizuara.substack.com/p/fdd27b47-2856-44dc-9c56-a7d1aa2d95e3"
-  date: 2025-10-01
-  note: "A linear-time scaling architecture for ultra-long context modeling."
+  date: 2025-12-24
+  note: "Karpathy's retrospective on the year of reasoning models and RLVR."
 
 - title: "JustRL: Scaling a 1.5B LLM with a Simple RL Recipe"
   url: "https://www.alphaxiv.org/abs/2512.16649"
-  date: 2025-12-16
-  note: "AlphaXiv paper showing simple RL can match complex pipelines."
+  date: 2025-12-19
+  note: "Simple RL matching complex pipelines at small scale."
+
+- title: "Technical DeepSeek: From V3 to V3.2"
+  url: "https://magazine.sebastianraschka.com/p/technical-deepseek"
+  date: 2025-12-03
+  note: "Deep dive into DeepSeek's architecture and sparse attention."
 
 - title: "The Smol Training Playbook"
   url: "https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook"
-  date: 2025-06-01
-  note: "Hugging Face's definitive guide to training small language models."
-  favorite: true
+  date: 2025-11-01
+  note: "HuggingFace's guide to training small language models."
+
+- title: "Evaluation Guidebook"
+  url: "https://huggingface.co/spaces/OpenEvals/evaluation-guidebook"
+  date: 2025-10-01
+  note: "Best practices for evaluating LLMs."
+
+- title: "Sporks of AGI"
+  url: "https://sergeylevine.substack.com/p/sporks-of-agi"
+  date: 2025-07-15
+  note: "Sergey Levine on why robotics needs real data, not just foundation models."
+
+- title: "Coding LLMs from the Ground Up"
+  url: "https://magazine.sebastianraschka.com/p/coding-llms-from-the-ground-up"
+  date: 2025-05-10
+  note: "Building an LLM from scratch, step by step."
+
+- title: "JAX-ML Scaling Book"
+  url: "https://jax-ml.github.io/scaling-book/"
+  date: 2025-03-23
+  note: "Technical guide to scaling ML workloads on JAX."
+
+- title: "Three Observations"
+  url: "https://blog.samaltman.com/three-observations"
+  date: 2025-02-09
+  note: "Sam Altman on the economics of intelligence."
 
 # --- 2024 ---
 
 - title: "Machines of Loving Grace"
   url: "https://darioamodei.com/machines-of-loving-grace"
   date: 2024-10-12
-  note: "Dario Amodei (Anthropic CEO) on how AI could transform the world for the better."
-  favorite: true
+  note: "Dario Amodei on how AI could transform the world for the better."
 
 - title: "Situational Awareness"
   url: "https://situational-awareness.ai/"
-  date: 2024-06-01
-  note: "Leopold Aschenbrenner's series on the decade ahead in AGI."
-  favorite: true
+  date: 2024-06-04
+  note: "Leopold Aschenbrenner on the decade ahead in AGI."
 
 - title: "Scaling Monosemanticity"
   url: "https://transformer-circuits.pub/2024/scaling-monosemanticity/"
   date: 2024-05-21
-  note: "Anthropic finally cracking open the black box."
+  note: "Anthropic cracking open the black box of features."
 
 # --- 2023 ---
-
-- title: "Planning for AGI and beyond"
-  url: "https://blog.samaltman.com/planning-for-agi-and-beyond"
-  date: 2023-02-24
-  note: "Sam Altman outlining OpenAI's roadmap for safe AGI deployment."
 
 - title: "Let's build GPT: from scratch, in code, spelled out"
   url: "https://www.youtube.com/watch?v=kCc8FmEb1nY"
   date: 2023-01-17
   note: "Karpathy's masterpiece. Best intro to transformers."
-  favorite: true
-
-# --- 2022 ---
-
-- title: "Constitutional AI"
-  url: "https://arxiv.org/abs/2212.08073"
-  date: 2022-12-15
-  note: "Training AI to be helpful, harmless, and honest."
-
-# --- 2021 ---
-
-- title: "Moore's Law for Everything"
-  url: "https://moores.samaltman.com/"
-  date: 2021-03-16
-  note: "Sam Altman on how AI will lower the cost of goods and services to near zero."
-  favorite: true
-
-# --- 2019 ---
-
-- title: "The Bitter Lesson"
-  url: "http://www.incompleteideas.net/IncIdeas/BitterLesson.html"
-  date: 2019-03-13
-  note: "Rich Sutton on why compute always wins."
-  favorite: true
 
 # --- 2017 ---
 
 - title: "Software 2.0"
   url: "https://karpathy.medium.com/software-2-0-a64152b37c35"
   date: 2017-11-11
-  note: "Andrej Karpathy on the shift from writing code to curating data."
-  favorite: true
+  note: "The shift from writing code to curating data."
+
+- title: "AlphaGo Zero"
+  url: "https://deepmind.google/research/breakthroughs/alphago/"
+  date: 2017-10-18
+  note: "RL self-play beats human data. No human games needed."
 
 - title: "Attention Is All You Need"
   url: "https://arxiv.org/abs/1706.03762"
   date: 2017-06-12
   note: "The paper that started it all."
-  favorite: true
 
-# --- 2016 ---
+# --- 2014 ---
 
-- title: "Deep Reinforcement Learning: Pong from Pixels"
-  url: "http://karpathy.github.io/2016/05/31/rl/"
-  date: 2016-05-31
-  note: "Karpathy explaining policy gradients by training an agent to play Pong."
+- title: "Sequence to Sequence Learning"
+  url: "https://arxiv.org/abs/1409.3215"
+  date: 2014-09-10
+  note: "Sutskever, Vinyals, Le. The birth of encoder-decoder architectures."
 
-# --- 2015 ---
+# --- 2013 ---
 
-- title: "The Unreasonable Effectiveness of Recurrent Neural Networks"
-  url: "http://karpathy.github.io/2015/05/21/rnn-effectiveness/"
-  date: 2015-05-21
-  note: "The legendary blog post that got many people into deep learning."
-  favorite: true
+- title: "Playing Atari with Deep RL"
+  url: "https://arxiv.org/abs/1312.5602"
+  date: 2013-12-19
+  note: "The paper that put DeepMind on the map. First deep Q-learning."
 
-# --- 2011 ---
+- title: "Unsupervised Learning"
+  url: "https://theneural.wordpress.com/2013/09/08/unsupervised-learning/"
+  date: 2013-09-08
+  note: "Ilya Sutskever's old blog. Thoughts on learning without labels."
 
-- title: "Thinking, Fast and Slow"
-  url: "https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555"
-  date: 2011-10-25
-  note: "Kahneman on System 1 vs System 2."
-  favorite: true
+- title: "Generating Sequences With RNNs"
+  url: "https://arxiv.org/abs/1308.0850"
+  date: 2013-08-04
+  note: "Alex Graves demonstrating the power of LSTMs for handwriting and text."
+
+# --- 2012 ---
+
+- title: "AlexNet"
+  url: "https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks"
+  date: 2012-12-03
+  note: "The moment deep learning broke into the mainstream."
+
+- title: "The Cat Neuron Paper"
+  url: "https://research.google.com/archive/unsupervised_icml2012.pdf"
+  date: 2012-06-26
+  note: "Andrew Ng & Jeff Dean finding cats on YouTube with unsupervised learning."
+
+# --- 2008 ---
+
+- title: "Machine Super Intelligence"
+  url: "http://www.vetta.org/2008/06/machine-super-intelligence/"
+  date: 2008-06-01
+  note: "Shane Legg's early PhD-era thoughts on AGI definition and safety."
+
+# --- 2004 ---
+
+- title: "MapReduce"
+  url: "https://research.google.com/archive/mapreduce.html"
+  date: 2004-12-01
+  note: "Jeff Dean & Sanjay Ghemawat. The paper that enabled scale."
