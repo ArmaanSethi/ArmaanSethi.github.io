@@ -221,6 +221,7 @@
   type: paper
   date: 2024-05-21
   note: "Anthropic. Dictionary learning at scale revealing millions of features."
+  favorite: true
 
 - title: "AlphaFold 3"
   url: "https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/"
@@ -257,6 +258,7 @@
   type: paper
   date: 2024-01-11
   note: "Hubinger et al. Sleeper agents persist through safety training."
+  favorite: true
 
 # --- 2023 ---
 
@@ -265,6 +267,7 @@
   type: blog
   date: 2023-12-14
   note: "Burns et al. GPT-2 supervising GPT-4. Extrapolating to superintelligence."
+  favorite: true
 
 - title: "FunSearch: Mathematical Discoveries with LLMs"
   url: "https://deepmind.google/discover/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/"
@@ -307,6 +310,7 @@
   type: blog
   date: 2023-07-28
   note: "DeepMind robotics. VLMs directly outputting robot actions. Web knowledge → physical world."
+  favorite: true
 
 - title: "Direct Preference Optimization (DPO)"
   url: "https://arxiv.org/abs/2305.18290"
@@ -349,6 +353,7 @@
   type: paper
   date: 2023-01-10
   note: "Hafner et al. Mastering Minecraft entirely inside a learned world model."
+  favorite: true
 
 # --- 2022 ---
 
@@ -377,6 +382,7 @@
   type: paper
   date: 2021-06-02
   note: "Chen et al. Casting offline RL as sequence prediction."
+  favorite: true
 
 - title: "DALL·E: Creating Images from Text"
   url: "https://openai.com/research/dall-e"
@@ -449,6 +455,7 @@
   type: blog
   date: 2018-03-27
   note: "Ha & Schmidhuber. Car racing solved entirely inside a learned 'dream'."
+  favorite: true
 
 # --- 2017 ---
 
@@ -457,6 +464,7 @@
   type: blog
   date: 2017-11-11
   note: "Neural nets as the new stack. Data replacing code."
+  favorite: true
 
 - title: "AlphaGo Zero"
   url: "https://deepmind.google/research/breakthroughs/alphago/"
@@ -519,12 +527,14 @@
   type: blog
   date: 2013-09-08
   note: "Sutskever's old blog on unsupervised learning philosophy."
+  favorite: true
 
 - title: "Generating Sequences With RNNs"
   url: "https://arxiv.org/abs/1308.0850"
   type: paper
   date: 2013-08-04
   note: "Graves. Predicting handwriting and text character by character with LSTMs."
+  favorite: true
 
 - title: "Word2Vec"
   url: "https://arxiv.org/abs/1301.3781"
@@ -561,6 +571,7 @@
   type: blog
   date: 2009-12-31
   note: "Legg predicting AGI mean of 2028, 'proto-AGI' by 2017, 10^18 FLOPS by 2018. Eerily accurate."
+  favorite: true
 
 # --- 2008 ---
 
