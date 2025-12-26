@@ -509,6 +509,12 @@
   date: 2017-06-12
   note: "Vaswani et al. Self-attention replacing recurrence entirely. The Transformer."
 
+- title: "AlphaGo in Context"
+  url: "https://medium.com/@karpathy/alphago-in-context-c47718cb95a5"
+  type: blog
+  date: 2017-05-23
+  note: "Karpathy demystifying AlphaGo as a pipeline of standard techniques and explaining why RL thrives in games but struggles in the real world."
+
 - title: "Neural Networks (3Blue1Brown)"
   url: "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi"
   type: video
