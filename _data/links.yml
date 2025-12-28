@@ -4,6 +4,12 @@
 
 # --- 2025 ---
 
+- title: "The Infinite Software Crisis"
+  url: "https://www.youtube.com/watch?v=eIoohUmYpGI"
+  type: video
+  date: 2025-12-28
+  note: "Jake Nations, Netflix. Great talk on how software engineering is changing dramatically with AI tools."
+
 - title: "2025 LLM Year in Review"
   url: "https://karpathy.bearblog.dev/year-in-review-2025/"
   type: blog
